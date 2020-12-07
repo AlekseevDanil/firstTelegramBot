@@ -8,7 +8,7 @@ import csv
 bot_token = '1320444471:AAGFW3VCl-eyVGjkcxNTixHwglp1QoV6D-4'
 bot_id = '1320444471'
 group_id = '-1001431089595'
-admin_id = ['487465379', '874493573']
+admin_id = ['874493573']
 applications = False
 sponsor = []
 

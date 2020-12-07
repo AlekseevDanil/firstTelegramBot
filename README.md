@@ -1,4 +1,4 @@
-# Как изменить файл для нового бота и как все установить на хостинг (на примере хостинга vds)
+# Как изменить файл для нового бота и как все установить на хостинг (на примере хостинга VDS)
 
 _Изменяем файл для нового бота_:
 
@@ -34,6 +34,11 @@ sudo apt-get install gnome-terminal
 sudo apt install python3.8
 sudo apt install python3-pip
 pip3 install pyTelegramBotAPI
+sudo apt install git
+git clone https://github.com/forjuffbot/juffbots.git
+cd juffbots
+cd ИМЯ ПАПКИ В КОТОРОЙ ХРАНИТЬСЯ ФАЙЛ С БОТОМ (например _cd juff2bot_)
+python3 имя файла (например python3 _run_juffbot.py_)
 
-
-
+_ВСЕ ГОТОВО!_
+Поздравляю! У вас получилось создать бота и установить его на сервер! Желаю вам дальнейших успехов! :)

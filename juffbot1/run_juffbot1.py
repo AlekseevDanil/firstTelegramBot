@@ -4,6 +4,7 @@ from itertools import zip_longest
 import telebot
 import random
 import csv
+import time
 
 bot_token = '1475053725:AAEhuulBqflD66qD-za0nyx-Rf-N4Gy4ngs'
 bot_id = '1475053725'
@@ -391,4 +392,10 @@ def text_message(message):
         print(repr(e))
 
 
-bot.polling()
+try:
+    bot.infinity_polling(True)
+except Exception as e:
+    print(repr(e))
+    time.sleep(15)
+
+

@@ -15,17 +15,17 @@ _Запускаем все на сервере:_
 
 Сейчас я перечислю команды которые нужно перечислить в консоль (копируем и вставляем):
 
-*sudo apt-get install gnome-terminal    (Устанавливаем ГНОМ терминал)
-*sudo apt install python3               (скачиваем python 3.x)
-*sudo apt install python3-pip           (скачиваем установщик пакетов питона PIP)
-*pip3 install pyTelegramBotAPI          (устанавливаем библиотеку для коректной работы на сервере)
-*sudo apt install git                   (устанавливаем git)
-*git clone https://github.com/forjuffbot/firtTeleBot.git       (скачиваем все файлы бота на сервер)
-*sudo apt install nodejs                (устанавливаем nodejs)
-*sudo apt install npm                   (устанавливаем npm)
-*npm install pm2 -g                     (устанавливаем pm2, для работы бота в фоне)
-*cd /Имя папки с ботом                  (переходим в папку с ботом)
-*pm2 start firtTelegramBot.py --interpreter=python3                 (замените firtTelegramBot.py на имя исполняемого файла бота)
+* sudo apt-get install gnome-terminal    (Устанавливаем ГНОМ терминал)
+* sudo apt install python3               (скачиваем python 3.x)
+* sudo apt install python3-pip           (скачиваем установщик пакетов питона PIP)
+* pip3 install pyTelegramBotAPI          (устанавливаем библиотеку для коректной работы на сервере)
+* sudo apt install git                   (устанавливаем git)
+* git clone https://github.com/forjuffbot/firtTeleBot.git       (скачиваем все файлы бота на сервер)
+* sudo apt install nodejs                (устанавливаем nodejs)
+* sudo apt install npm                   (устанавливаем npm)
+* npm install pm2 -g                     (устанавливаем pm2, для работы бота в фоне)
+* cd /Имя папки с ботом                  (переходим в папку с ботом)
+* pm2 start firtTelegramBot.py --interpreter=python3                 (замените firtTelegramBot.py на имя исполняемого файла бота)
 
 _ВСЕ ГОТОВО!_
 Поздравляю! У вас получилось установить бота на сервер! Желаю вам дальнейших успехов! :)

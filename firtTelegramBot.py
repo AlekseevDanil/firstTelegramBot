@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Telegram bot @juff2bot
+# Telegram bot 
 from itertools import zip_longest
 import telebot
 import random
 import csv
 
-bot_token = '1320444471:AAGFW3VCl-eyVGjkcxNTixHwglp1QoV6D-4'
+bot_token = 'TOKEN'
 bot_id = '1320444471'
 group_id = '-1001431089595'
 admin_id = ['874493573']
@@ -86,7 +86,7 @@ def add_message(message):
             else:
                 raise ImportError
         except Exception as e:
-            bot.send_message(message.chat.id, 'Ваша заявка не верна!\nПожалуйста проверте правильность всех данных!\nА также проверьте что @juff2bot является администратором в вашем канале')
+            bot.send_message(message.chat.id, 'Ваша заявка не верна!\nПожалуйста проверте правильность всех данных!\nА также проверьте что @jИМЯ_БОТА является администратором в вашем канале')
             print(repr(e))
     else:
         bot.send_message(message.chat.id,
@@ -116,11 +116,11 @@ def add_message(message):
                         raise ImportError
                 except Exception as e:
                     bot.send_message(message.chat.id,
-                                     'Ваша заявка не верна!\nПожалуйста проверте правильность всех данных!\n\nА также проверьте что @juff2bot является администратором в канале спонсора!')
+                                     'Ваша заявка не верна!\nПожалуйста проверте правильность всех данных!\n\nА также проверьте что @ИМЯ_БОТА является администратором в канале спонсора!')
                     print(repr(e))
     except Exception as e:
         bot.send_message(message.chat.id,
-                         'Ваша заявка не верна!\nПожалуйста проверте правильность всех данных!\n\nА также проверьте что @juff2bot является администратором в канале спонсора!')
+                         'Ваша заявка не верна!\nПожалуйста проверте правильность всех данных!\n\nА также проверьте что @ИМЯ_БОТА является администратором в канале спонсора!')
         print(repr(e))
 
 

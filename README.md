@@ -20,7 +20,7 @@ _Запускаем все на сервере:_
 * sudo apt install python3-pip           (скачиваем установщик пакетов питона PIP)
 * pip3 install pyTelegramBotAPI          (устанавливаем библиотеку для коректной работы на сервере)
 * sudo apt install git                   (устанавливаем git)
-* git clone https://github.com/forjuffbot/firtTeleBot.git       (скачиваем все файлы бота на сервер)
+* git clone https://github.com/forjuffbot/firtTelegramBot.git       (скачиваем все файлы бота на сервер)
 * sudo apt install nodejs                (устанавливаем nodejs)
 * sudo apt install npm                   (устанавливаем npm)
 * npm install pm2 -g                     (устанавливаем pm2, для работы бота в фоне)

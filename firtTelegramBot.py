@@ -398,4 +398,8 @@ def text_message(message):
         print(repr(e))
 
 
-bot.infinity_polling(True)
+try:
+    bot.infinity_polling(True)
+except Exception as e:
+    print(repr(e))
+    time.sleep(15)
